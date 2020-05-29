@@ -4,6 +4,9 @@ This builds a bogus 'fake-python' rpm to require /usr/bin/python, so that the (e
 Basically we're faking the rpmdb out until the package can be updated and (re)released officially.
 
 ### how to build
+
+```
 rpmbuild -ba fake_python.spec
-install the resulting noarch rpm
+then install the resulting noarch rpm
+```
 
